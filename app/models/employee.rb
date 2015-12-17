@@ -12,10 +12,6 @@ class Employee
     @addresses = hash["addresses"]
   end
 
-  def addresses
-    @addresses = hash["addresses"]
-  end
-
   def full_name
     "#{@first_name} #{@last_name}"
   end
